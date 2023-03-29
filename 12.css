@@ -1,0 +1,41 @@
+.container {
+    color:aqua;
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    border-radius: 10px;
+    padding: 1rem;
+     }
+.container div {
+      margin: 0 1rem;
+     height: 100%;
+     border-radius: 20px;
+     transition: .5s ease-in-out;
+     width: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     }
+.container div:nth-child(1){
+    background-image: url(RICK\ AND\ MORTY.jpg);
+    
+}
+.container div:nth-child(2){
+    background-image: url(LLEGADA\ \ RICK\ AND\ MORTY.jpg);
+    
+} 
+.container div:nth-child(3){
+    background-image: url(NAVE.jpg);
+    
+    
+}
+.container div:nth-child(4){
+    background-image: url(MORTY\ AND\ RICK.png);
+
+
+}
+.container div:nth-child(5){
+    background-image: url(TODOS.jpg);
+    
+}
+
+   
